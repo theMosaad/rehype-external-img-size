@@ -1,6 +1,7 @@
 {
   "name": "rehype-external-img-size",
   "description": "rehype plugin to add width and height attributes to external images",
+  "version": "0.0.0",
   "license": "MIT",
   "keywords": [
     "unified",
