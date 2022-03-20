@@ -1,0 +1,46 @@
+{
+  "name": "rehype-external-img-size",
+  "description": "rehype plugin to add width and height attributes to external images",
+  "license": "MIT",
+  "keywords": [
+    "unified",
+    "rehype",
+    "rehype-plugin",
+    "plugin",
+    "html",
+    "hast",
+    "markdown"
+  ],
+  "repository": "themosaad/rehype-external-img-size",
+  "bugs": "https://github.com/themosaad/rehype-external-img-size/issues",
+  "author": "Mosaad (https://themosaad.com)",
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "hast-util-select": "^5.0.1",
+    "probe-image-size": "^7.2.3"
+  },
+  "devDependencies": {
+    "np": "^7.6.1",
+    "xo": "^0.48.0"
+  },
+  "scripts": {
+    "format": "prettier . -w --loglevel warn && xo --fix",
+    "release": "npm run format && np"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
+  "xo": {
+    "prettier": true
+  }
+}
